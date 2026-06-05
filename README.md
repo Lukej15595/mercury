@@ -1,7 +1,7 @@
 # Startup
 
 ``` shell
-git clone <this-repo>
+git clone https://github.com/Lukej15595/mercury.git
 cd server-bootstrap
 ./bootstrap.sh
 ```
