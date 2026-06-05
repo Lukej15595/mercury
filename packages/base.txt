@@ -1,0 +1,44 @@
+# Essential Utilities
+git
+curl
+wget
+tmux
+
+# Editors
+nvim
+vim
+
+# Searches
+jq
+ripgrep
+fd-find
+tree
+
+# Packaging
+unzip
+zip
+rsync
+
+# Activity Monitors
+btop
+htop
+
+# Networking
+ncdu
+dnsutils
+net-tools
+traceroute
+mtr
+nmap
+
+# Quality of Life
+eza
+bat
+fzf
+zoxide
+tldr
+
+# Development
+build-essential
+shellcheck
+python3-pip

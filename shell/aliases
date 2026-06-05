@@ -1,0 +1,23 @@
+alias ls='eza -lah --group-directories-first'
+alias la='eza -A --group-directories-first'
+
+alias cat='bat'
+alias man='tldr'
+
+alias cd='z'
+alias ..='z ..'
+alias ...='z ../..'
+
+alias ports='ss -tulpn'
+alias myip='curl ifconfig.me'
+
+alias d='docker'
+alias dc='docker compose'
+
+alias dps='docker ps'
+alias di='docker images'
+
+alias dcu='docker compose up -d'
+alias dcd='docker compose down'
+
+alias dcl='docker compose logs -f'

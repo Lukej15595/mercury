@@ -1,0 +1,47 @@
+# ~/.bashrc
+
+###########################################
+# editor
+###########################################
+export VISUAL=vim
+export EDITOR="$VISUAL"
+export PAGER=less
+
+###########################################
+# history 
+###########################################
+export HISTSIZE=50000
+export HISTFILESIZE=100000
+export HISTCONTROL=ignoredups:erasedups
+export HISTTIMEFORMAT="%F %T "
+
+shopt -s histappend
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+
+############################################
+# shell options
+###########################################
+shopt -s checkwinsize
+shopt -s globstar
+
+###########################################
+# fzf
+###########################################
+source /usr/share/doc/fzf/examples/key-bindings.bash
+
+###########################################
+# zoxide
+###########################################
+eval "$(zoxide init bash)"
+
+###########################################
+# starship
+###########################################
+eval "$(starship init bash)"
+
+###########################################
+# aliases
+###########################################
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
+fi
