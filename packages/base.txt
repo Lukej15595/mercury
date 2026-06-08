@@ -5,8 +5,8 @@ wget
 tmux
 
 # Editors
-nvim
 vim
+neovim
 
 # Searches
 jq
@@ -36,7 +36,6 @@ eza
 bat
 fzf
 zoxide
-tldr
 
 # Development
 build-essential
